@@ -31,7 +31,7 @@ def main():
             if event.type == pygame.QUIT:
                 return
             
-        screen.fill((0,0,0))
+        screen.fill((0,0,50))
         for i in updatable:
             i.update(dt)
 
